@@ -16,7 +16,7 @@ jobs:
           node-version: 10
       - name: Install dependencies via npm
         run: |
-          npm install
+          npm install --only=prod
   on-failure:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
