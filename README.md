@@ -26,8 +26,8 @@ limitations under the License.
 
 ## Installation
 
-``` bash
-$ npm install @stdlib/utils-next-tick
+```bash
+npm install @stdlib/utils-next-tick
 ```
 
 </section>
