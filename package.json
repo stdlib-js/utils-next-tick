@@ -74,5 +74,9 @@
     "callback",
     "clbk",
     "delay"
-  ]
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
 }
