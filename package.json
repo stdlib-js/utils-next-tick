@@ -1,0 +1,40 @@
+{
+  "name": "@stdlib/utils-next-tick",
+  "version": "0.0.0",
+  "description": "Add a callback to the next tick queue.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-next-tick.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utils",
+    "util",
+    "utilities",
+    "utility",
+    "process",
+    "nexttick",
+    "next",
+    "tick",
+    "settimeout",
+    "setimmediate",
+    "async",
+    "asynchronous",
+    "callback",
+    "clbk",
+    "delay"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
