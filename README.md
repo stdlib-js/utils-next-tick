@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nextTick from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-next-tick@deno/mod.js';
+import nextTick from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-next-tick@v0.1.0-deno/mod.js';
 ```
 
 #### nextTick( clbk\[, ...args] )
@@ -77,7 +77,7 @@ nextTick( beep );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import nextTick from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-next-tick@deno/mod.js';
+import nextTick from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-next-tick@v0.1.0-deno/mod.js';
 
 function beep( x, y, z ) {
     console.log( 'boop: %d %d %d', x, y, z );
