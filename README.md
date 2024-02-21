@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import nextTick from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-next-tick@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-next-tick/tags). For example,
+
+```javascript
 import nextTick from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-next-tick@v0.2.1-deno/mod.js';
 ```
 
@@ -77,7 +82,7 @@ nextTick( beep );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import nextTick from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-next-tick@v0.2.1-deno/mod.js';
+import nextTick from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-next-tick@deno/mod.js';
 
 function beep( x, y, z ) {
     console.log( 'boop: %d %d %d', x, y, z );
